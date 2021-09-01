@@ -43,6 +43,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 0px 0px 0px 5px;
 }
 .header__img {
   max-height: 250px;
@@ -54,6 +55,9 @@ body {
   align-items: center;
   overflow: hidden;
   position: relative;
+}
+.header__left-prof {
+  margin: 0px 0px 0px 40px;
 }
 .foto {
   max-width: 100%;
