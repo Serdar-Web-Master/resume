@@ -8,22 +8,40 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(101, 197, 226);
+  /* background-color: rgb(101, 197, 226); */
 }
-.wrapper {
+/* .wrapper {
   height: 1000px;
   background-color: rgb(236, 232, 232);
   max-width: 800px;
   margin: 0 auto;
+} */
+.container {
+  height: 100vh;
+  border: 2px solid rgb(139, 139, 139);
+  border-radius: 15px;
+  background-color: rgb(236, 232, 232);
+  width: 95vw;
+  margin: 20px auto;
+}
+.header__name-div {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0px 5px 5px;
+}
+.header__name {
+  padding: 0px 0px 0px 20px;
+  display: flex;
+  justify-content: center;
 }
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-top: 20px;
 }
 .header__left {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 .header__img {
